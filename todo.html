@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/cart.css">
+    <title>To-Do List</title>
+</head>
+<body class="main"><!--adjust background color-->
+
+    <div class="head"><!--set as flex row-->
+            <header class="intro">DAILY OBJECTIVES!</header><!--uppercase, font change-->
+            <sup class="total" id="totalDis">#</sup><!--style winndow and attatch js function to id-->
+    </div>
+
+    <div class="title">
+        <h1>Things to do . . .</h1><!--capitalize, font change-->
+    </div>
+
+    <div class="fill"><!--set list as flex row-->
+        <div class="do"><!--set list as flex row-->
+            <input class="doin" type="text" id="txtTask">
+            <button class="dobtn" onclick="addTask()">ADD TASK</button>
+        </div>
+        <div class="buy"><!--set list as flex row-->
+            <input class="buyin" type="text" id="txtItem">
+            <button class="buybtn" onclick="buyItem()">ADD ITEM</button>
+        </div>
+    </div>
+
+    <div class="list"><!--set list as flex row, adjust font and sizing-->
+        <div class="dolist">
+            <h2>Task📋<sup id="doTotal"></sup></h2><!--edit font-->
+            <ul id="doList"> 
+
+            </ul>
+        </div>
+        <div class="buylist">
+            <h2>Item📦<sup id="buyTotal"></sup></h2><!--edit font-->
+            <ul id="buyList">
+
+            </ul>
+        </div>
+    </div>
+    <script src="script/todo.js"></script>
+</body>
+</html>

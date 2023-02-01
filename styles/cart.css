@@ -1,0 +1,102 @@
+/*main*/
+
+.main{
+    background-color: #ffe44c;
+    font-family: 'Caveat', cursive;
+}
+
+    /*headsec*/
+
+    .head{
+        display: flex;
+        font-size: 600%;
+    }
+
+        header{
+        margin-right: 2.5%;
+        margin-left: 10%;
+        }
+
+        .head sup{
+            background-color: #96a6ff;
+            border: 10px solid  #ad6fff;
+            width: 10%;
+            padding-left:1% ;
+            padding-top: 0%;
+        }
+
+        .intro{
+        }
+
+        .total{
+        }
+
+    /*titlesec*/
+
+    .title{
+        font-size: 200%;
+        text-align: center;
+    }
+
+    /*fillsec*/
+
+    .fill{
+        display: flex;
+    }
+        
+        .do{
+            width: 50%;
+        }
+        
+        .doin{
+            margin: 1% 1% 1% 10%;
+            font-size: 250%;
+        }
+
+        .dobtn{
+            font-weight: 700;
+            margin: 1%;
+            font-size:250%;
+        }
+
+        .buy{
+            margin:0% 1% 1% 2%;
+            width: 50%;
+        }
+
+        .buyin{
+            margin: 1%;
+            font-size: 250%;
+        }
+        
+        .buybtn{
+            font-weight: 700;
+            margin: 1%;
+            font-size: 250%;
+        }
+
+    /*listsec*/
+    .list{
+        display: flex;
+    }
+
+        .dolist{
+        background-color: #96a6ff;
+            border: 20px solid  #ad6fff;
+            padding-left: .5%;
+            font-size: 200%;
+            width:40%;
+            height: 750px;
+            margin-left:5%;
+            margin-right:2.5%;
+        }
+
+        .buylist{
+        background-color: #96a6ff;
+            border: 20px solid  #ad6fff;
+            padding-left: .5%;
+            font-size: 200%;
+            width:40%;
+            margin-left:1%;
+            margin-right:2.5%;
+        }
