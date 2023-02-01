@@ -7,37 +7,36 @@
     <link rel="stylesheet" href="styles/cart.css">
     <title>To-Do List</title>
 </head>
-<body class="main"><!--adjust background color-->
+<body class="main">
 
-    <div class="head"><!--set as flex row-->
-            <header class="intro">DAILY OBJECTIVES!</header><!--uppercase, font change-->
-            <sup class="total" id="totalDis">#</sup><!--style winndow and attatch js function to id-->
+    <div class="head">
+            <header class="intro">DAILY OBJECTIVES!</header>
     </div>
 
     <div class="title">
-        <h1>Things to do . . .</h1><!--capitalize, font change-->
+        <h1>Things to do . . .</h1>
     </div>
 
-    <div class="fill"><!--set list as flex row-->
-        <div class="do"><!--set list as flex row-->
+    <div class="fill">
+        <div class="do">
             <input class="doin" type="text" id="txtTask">
             <button class="dobtn" onclick="addTask()">ADD TASK</button>
         </div>
-        <div class="buy"><!--set list as flex row-->
+        <div class="buy">
             <input class="buyin" type="text" id="txtItem">
             <button class="buybtn" onclick="buyItem()">ADD ITEM</button>
         </div>
     </div>
 
-    <div class="list"><!--set list as flex row, adjust font and sizing-->
+    <div class="list">
         <div class="dolist">
-            <h2>Task📋<sup id="doTotal"></sup></h2><!--edit font-->
+            <h2>Task📋<sup id="doTotal"></sup></h2>
             <ul id="doList"> 
 
             </ul>
         </div>
         <div class="buylist">
-            <h2>Item📦<sup id="buyTotal"></sup></h2><!--edit font-->
+            <h2>Item📦<sup id="buyTotal"></sup></h2>
             <ul id="buyList">
 
             </ul>
